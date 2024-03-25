@@ -29,3 +29,27 @@ li{
     border-radius: 30px;
     padding: 4px;
 }
+ /* inizio main */
+ .first-block{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    
+ }
+ .big-box{
+    width: 65%;
+    background-color: aqua;
+    margin-top: 3rem;
+    border-radius: 30px;
+    padding: 1rem;
+    padding-right: 0;
+ }
+ .small-box{
+    width: 30%;
+    margin-right:2.5%;
+    background-color: aqua;
+    margin-top: 3rem;
+    border-radius: 30px;
+    padding: 1rem;
+ }
