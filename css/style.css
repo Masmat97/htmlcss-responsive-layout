@@ -28,6 +28,7 @@ li{
    width: 30%;
    height: auto;
  }
+ 
  .big-box{
     
     background-color: aqua;
@@ -44,33 +45,97 @@ li{
     border-radius: 30px;
     padding: 1rem;
  }
+ .planning2{
+   background-color: white;
+   border-radius: 30px;
+   margin: 2rem 0;
+ }
  .second-block{
-    background-color: rgb(112, 56, 112);
+    background-color: rgb(151, 146, 228);
     color: white;
     width: 100%;
     margin-top: 3rem;
  }
  .partners{
-    background-color:rgb(112, 56, 112) ;
+    background-color: rgb(151, 146, 228);
     color: white;
     width: 90%;
-    margin: auto;
-    margin-top: 4%;
+    margin: 1rem auto;
+    border-radius: 30px;
+    padding: 1rem 0;
+ }
+ .strategic{
+   text-align: center;
+   padding-bottom: 2rem;
+ }
+ .testimonial{
+   text-align: center;
+   margin: 2rem;
+ }
+ .test{
+   border-radius: 100%;
+   width: 20%;
+   height: auto;
  }
  .fourth-block{
-    background-color: rgb(112, 56, 112);
+    background-color: rgb(151, 146, 228);
     width: 100%;
  }
- .partners{
+  .support{
     width: 80%;
     margin: auto;
-    background-color: white;
-    color: black;
+    background-color:white;
     margin-bottom: 3%;
+    border-radius: 30px;
+    padding: 1rem 1rem;
+    color: rgb(151, 146, 228);
+ }
+ .benefit{
+   text-align: center;
+   color: black;
+   padding-top: 1rem;
+   padding-left: 8rem;
+ }
+ .about{
+   border-radius: 100%;
+   width: 40%;
+   height: auto;
+   margin-left: 2rem;
+ }
+ .lorem{
+   padding: 1rem 2rem;
+ }
+ .help{
+   color: rgb(151, 146, 228);
+   margin: 2rem;
+ }
+ .linkedin{
+   margin: 2rem;
+   background-color: rgb(151, 146, 228);
+   
  }
  .sixth-block{
-    background-color: rgb(112, 56, 112);
+    background-color:  rgb(151, 146, 228);
     text-align: center;
+ }
+ .orange{
+   color: orange;
+   font-size: 3rem;
+   padding: 2rem;
+ }
+ .get{
+   border-radius: 30px;
+   padding: 1rem 2rem;
+   margin: 1rem;
+   background-color: white;
+   color: rgb(151, 146, 228);
+ }
+ .bianco{
+   color: white;
+ }
+ .star{
+   margin: 1rem auto;
+   padding-top: 2rem;
  }
  footer{
     background-color: black;
@@ -93,7 +158,23 @@ li{
            .small-box{
             width: 30%;
            }
+           .partners{
+            display: flex;
+            flex-direction: row;
+           }
+           .fourth-block{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+           }
+           .support{
+            width: 45%;
+            margin: 1rem;
+           }
+           .fifth-block{
+            display: flex;
+           }
 
  }
-   
+   @media screen and (min-width:1160px)
  
