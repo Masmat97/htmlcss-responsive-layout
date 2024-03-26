@@ -10,17 +10,14 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
- 
+    padding: 1rem;
 }
-
-
 .nav-list{
     display: flex;
     flex-direction: row;
 }
 li{
     list-style-type: none;
- 
 }
 .started{
     border-radius: 30px;
@@ -29,7 +26,7 @@ li{
  /* inizio main */
  
  .big-box{
-    width: 100%;
+    
     background-color: aqua;
     margin-top: 3rem;
     border-radius: 30px;
@@ -37,7 +34,7 @@ li{
     padding-right: 0;
  }
  .small-box{
-    width: 100%;
+    
     margin-right:2.5%;
     background-color: aqua;
     margin-top: 3rem;
@@ -70,8 +67,27 @@ li{
  }
  .sixth-block{
     background-color: rgb(112, 56, 112);
+    text-align: center;
  }
  footer{
     background-color: black;
     color: white;
  }
+ @media screen and(min-width:768px){
+           main{
+            width: 100%;
+           }
+           .first-block{
+            display: flex;
+            justify-content: space-between;
+           }
+           .big-box{
+            width: 65%;
+           }
+           .small-box{
+            width: 30%;
+           }
+
+ }
+   
+ 
